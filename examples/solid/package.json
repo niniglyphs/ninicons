@@ -1,0 +1,17 @@
+{
+  "name": "ninicons-example-solid",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@ninicons/solid": "^1.0.0",
+    "solid-js": "^1.9.0"
+  },
+  "devDependencies": {
+    "vite-plugin-solid": "^2.11.0",
+    "vite": "^7.0.0"
+  }
+}

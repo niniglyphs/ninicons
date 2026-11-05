@@ -1,0 +1,44 @@
+{
+  "name": "@ninicons/iconify",
+  "version": "1.0.0",
+  "description": "Ninicons as an Iconify collection (prefix nini): 3,000+ icons in seven styles for Tailwind CSS, UnoCSS, Astro Icon and Iconify",
+  "license": "MIT",
+  "author": "Sayantan Roy",
+  "homepage": "https://niniglyphs.com/use/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niniglyphs/ninicons.git",
+    "directory": "packages/iconify"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "iconify",
+    "iconify-json",
+    "tailwindcss",
+    "unocss",
+    "ninicons",
+    "nini",
+    "icon-set"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./icons.json": "./dist/icons.json",
+    "./info.json": "./dist/info.json",
+    "./metadata.json": "./dist/metadata.json",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@iconify/types": "^2.0.0"
+  }
+}

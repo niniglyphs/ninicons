@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ninicons · web component from a CDN</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <!-- One script, no build: every icon is fetched from the CDN the first time the page uses it. -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ninicons/web@1/dist/index.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="side">
+        <div class="brand"><nini-icon name="sparkle" size="22" weight="fill"></nini-icon> Nini Projects</div>
+        <a class="nav" href="#" aria-current="page"><nini-icon name="home" size="20"></nini-icon> <span>Home</span></a>
+        <a class="nav" href="#"><nini-icon name="search" size="20"></nini-icon> <span>Search</span></a>
+        <a class="nav" href="#"><nini-icon name="bell" size="20"></nini-icon> <span>Inbox</span></a>
+        <a class="nav" href="#"><nini-icon name="heart" size="20"></nini-icon> <span>Saved</span></a>
+        <a class="nav" href="#"><nini-icon name="gear" size="20"></nini-icon> <span>Settings</span></a>
+      </aside>
+      <main class="main">
+        <div class="head">
+          <h1>Projects</h1>
+          <button class="button"><nini-icon name="plus" size="18" weight="bold"></nini-icon> New project</button>
+        </div>
+        <section class="cards">
+          <article class="card">
+            <div class="mark"><nini-icon name="rocket" size="26" weight="duotone"></nini-icon></div>
+            <h2>Launch plan</h2>
+            <div class="when"><nini-icon name="clock" size="16"></nini-icon> 2 days left</div>
+          </article>
+          <article class="card">
+            <div class="mark"><nini-icon name="leaf" size="26" weight="duotone"></nini-icon></div>
+            <h2>Garden club</h2>
+            <div class="when"><nini-icon name="clock" size="16"></nini-icon> Next week</div>
+          </article>
+          <article class="card">
+            <div class="mark"><nini-icon name="coffee" size="26" weight="duotone"></nini-icon></div>
+            <h2>Morning notes</h2>
+            <div class="when"><nini-icon name="clock" size="16"></nini-icon> Today</div>
+          </article>
+        </section>
+        <section>
+          <p class="label">One icon, seven weights</p>
+          <div class="weights">
+            <div class="weight"><nini-icon name="rocket" size="32" weight="thin"></nini-icon> thin</div>
+            <div class="weight"><nini-icon name="rocket" size="32" weight="light"></nini-icon> light</div>
+            <div class="weight"><nini-icon name="rocket" size="32"></nini-icon> regular</div>
+            <div class="weight"><nini-icon name="rocket" size="32" weight="semibold"></nini-icon> semibold</div>
+            <div class="weight"><nini-icon name="rocket" size="32" weight="bold"></nini-icon> bold</div>
+            <div class="weight"><nini-icon name="rocket" size="32" weight="fill"></nini-icon> fill</div>
+            <div class="weight"><nini-icon name="rocket" size="32" weight="duotone"></nini-icon> duotone</div>
+          </div>
+        </section>
+        <p class="foot">Drawn with &lt;nini-icon&gt; from the jsDelivr CDN.</p>
+      </main>
+    </div>
+  </body>
+</html>

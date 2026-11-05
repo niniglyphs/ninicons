@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m11.76 11.76c-.56.55-1.02 1.21-1.32 1.94-.3.73-.44 1.51-.44 2.3 0 .79.14 1.57.44 2.3 .3.73.76 1.39 1.32 1.94 1.15 1.15 2.61 1.76 4.24 1.76 1.63 0 3.09-.61 4.24-1.76 1.15-1.15 1.76-2.61 1.76-4.24 0-1.63-.61-3.09-1.76-4.24-.55-.56-1.21-1.02-1.94-1.32-.73-.3-1.51-.44-2.3-.44-.79 0-1.57.14-2.3.44-.73.3-1.39.76-1.94 1.32z" fill="currentColor" stroke="none" fill-rule="evenodd"/>
+  <path d="M15.25 5a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M16 5h.01" fill="currentColor"/>
+  <path d="M23 8.25a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M23.75 8.25h.01" fill="currentColor"/>
+  <path d="M26.25 16a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M27 16h.01" fill="currentColor"/>
+  <path d="M23 23.75a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M23.75 23.75h.01" fill="currentColor"/>
+  <path d="M15.25 27a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M16 27h.01" fill="currentColor"/>
+  <path d="M7.5 23.75a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M8.25 23.75h.01" fill="currentColor"/>
+  <path d="M4.25 16a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M5 16h.01" fill="currentColor"/>
+  <path d="M7.5 8.25a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0M8.25 8.25h.01" fill="currentColor"/>
+</svg>

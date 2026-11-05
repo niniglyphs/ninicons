@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m14 29v-2c.01-.97-1.26-1.36-1.81-.58-.12.17-.19.37-.19.58v2c-.01.97 1.26 1.36 1.81.58 .12-.17.19-.37.19-.58zm6 0v-2c.01-.97-1.26-1.36-1.81-.58-.12.17-.19.37-.19.58v2c0 .21.07.41.19.58 .55.78 1.82.39 1.81-.58z" fill="currentColor" stroke="none" fill-rule="evenodd"/>
+  <rect x="6" y="3" width="20" height="24" rx="4"/>
+  <path d="M18 9L12 15H20L14 21"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="16" cy="17.5" rx="6.5" ry="8"/>
+  <circle cx="16" cy="6.75" r="2.75"/>
+  <path d="M10.75 12.75C7.75 10.75 4.5 11.25 3.5 13.75C3 15.5 3.75 17.5 5.25 19.25C6.25 16.75 7.75 15.25 9.75 15.25M21.25 12.75C24.25 10.75 27.5 11.25 28.5 13.75C29 15.5 28.25 17.5 26.75 19.25C25.75 16.75 24.25 15.25 22.25 15.25M11 22.5L7.5 27L12.5 24.5M21 22.5L24.5 27L19.5 24.5"/>
+</svg>

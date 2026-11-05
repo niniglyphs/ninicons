@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+/* Icons as classes: icon-[nini--rocket], icon-[nini--rocket-bold], … (only the ones used are generated). The plugin
+   reads the collection by file path, from the folder Tailwind runs in. */
+@plugin '@iconify/tailwind4' {
+  icon-sets: from-json(nini, './node_modules/@ninicons/iconify/dist/icons.json');
+}

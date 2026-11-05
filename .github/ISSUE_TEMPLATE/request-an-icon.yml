@@ -1,0 +1,29 @@
+name: Request an icon
+description: Ask for an icon that isn't in the set yet.
+title: 'Icon request: '
+labels: ['icon request']
+body:
+  - type: input
+    id: name
+    attributes:
+      label: What should it show?
+      description: A name or a few words, e.g. "watering can" or "two-factor key".
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Where would you use it?
+      description: The product, screen or situation. It helps us draw the right thing.
+    validations:
+      required: true
+  - type: input
+    id: search
+    attributes:
+      label: What did you search for?
+      description: The words you tried on niniglyphs.com, so the icon (or an existing one) can be found that way.
+  - type: textarea
+    id: reference
+    attributes:
+      label: References
+      description: Links or images of the object, or of how other sets draw it.

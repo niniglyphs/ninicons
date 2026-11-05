@@ -1,0 +1,50 @@
+{
+  "name": "@ninicons/web",
+  "version": "1.0.0",
+  "description": "Ninicons as a <nini-icon> web component: 3,000+ icons in seven styles, for plain HTML and any framework",
+  "license": "MIT",
+  "author": "Sayantan Roy",
+  "homepage": "https://niniglyphs.com/use/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niniglyphs/ninicons.git",
+    "directory": "packages/web"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "web-components",
+    "custom-elements",
+    "html",
+    "ninicons",
+    "nini",
+    "icon-set"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "jsdelivr": "./dist/index.js",
+  "unpkg": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./icons/*.js": {
+      "types": "./dist/icons/*.d.ts",
+      "default": "./dist/icons/*.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "default": "./dist/icons/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "./dist/index.js"
+  ]
+}

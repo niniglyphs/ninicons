@@ -1,0 +1,32 @@
+{
+  "name": "@ninicons/core",
+  "version": "1.0.0",
+  "description": "Ninicons as plain SVG files and sprites in seven styles, plus icons.json metadata",
+  "license": "MIT",
+  "author": "Sayantan Roy",
+  "homepage": "https://niniglyphs.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niniglyphs/ninicons.git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "ninicons",
+    "nini",
+    "icon-set"
+  ],
+  "files": [
+    "svg",
+    "sprite",
+    "icons.json"
+  ],
+  "exports": {
+    "./icons.json": "./icons.json",
+    "./svg/*": "./svg/*",
+    "./sprite/*": "./sprite/*",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m11.5 3h9c1.08-.01 2.01.92 2 2v9c.01 1.08-.92 2.01-2 2h6.5c1.08-.01 2.01.92 2 2v9c.01 1.08-.92 2.01-2 2h-9c-1.08.01-2.01-.92-2-2 .01 1.08-.92 2.01-2 2h-9c-1.08.01-2.01-.92-2-2v-9c-.01-1.08.92-2.01 2-2h6.5c-1.08.01-2.01-.92-2-2v-9c-.01-1.08.92-2.01 2-2zm3.25 5.25h2.5v2.5h-2.5zm1.25 9.75c.01-1.08-.92-2.01-2-2h4c-1.08-.01-2.01.92-2 2zm-6.5 6c-.31 0-.62-.1-.87-.28-1.18-.84-.58-2.72.87-2.72 1.45 0 2.05 1.88.87 2.72-.25.18-.56.28-.87.28zm14.5 0-1.5-3-1.5 3z" fill="currentColor" stroke="none" fill-rule="evenodd" opacity="0.2"/>
+  <rect x="3" y="16" width="13" height="13" rx="2"/>
+  <rect x="16" y="16" width="13" height="13" rx="2"/>
+  <rect x="9.5" y="3" width="13" height="13" rx="2"/>
+  <path d="M16 16V29M9.5 16H22.5"/>
+  <circle cx="9.5" cy="22.5" r="1.5"/>
+  <path d="M22.5 21L24 24H21Z"/>
+  <path d="M14.75 8.25H17.25V10.75H14.75Z" fill="currentColor"/>
+</svg>

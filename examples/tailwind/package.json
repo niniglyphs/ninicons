@@ -1,0 +1,17 @@
+{
+  "name": "ninicons-example-tailwind",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "@iconify/tailwind4": "^1.2.0",
+    "@ninicons/iconify": "^1.0.0",
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

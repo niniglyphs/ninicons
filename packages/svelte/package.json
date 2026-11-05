@@ -1,0 +1,44 @@
+{
+  "name": "@ninicons/svelte",
+  "version": "1.0.0",
+  "description": "Ninicons as Svelte 5 components: 3,000+ icons in seven styles, one weight prop",
+  "license": "MIT",
+  "author": "Sayantan Roy",
+  "homepage": "https://niniglyphs.com/use/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niniglyphs/ninicons.git",
+    "directory": "packages/svelte"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "svelte",
+    "sveltekit",
+    "ninicons",
+    "nini",
+    "icon-set"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "svelte": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./icons/*": {
+      "svelte": "./dist/icons/*",
+      "default": "./dist/icons/*"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "svelte": ">=5"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "@ninicons/vue",
+  "version": "1.0.0",
+  "description": "Ninicons as Vue 3 components: 3,000+ icons in seven styles, one weight prop",
+  "license": "MIT",
+  "author": "Sayantan Roy",
+  "homepage": "https://niniglyphs.com/use/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niniglyphs/ninicons.git",
+    "directory": "packages/vue"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "vue",
+    "nuxt",
+    "ninicons",
+    "nini",
+    "icon-set"
+  ],
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "default": "./dist/icons/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "vue": ">=3.3"
+  }
+}

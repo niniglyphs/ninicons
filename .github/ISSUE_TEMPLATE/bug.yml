@@ -1,0 +1,38 @@
+name: Something's wrong
+description: An icon drawn wrong, or a package that misbehaves.
+labels: ['bug']
+body:
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - An icon's drawing
+        - '@ninicons/react'
+        - '@ninicons/vue'
+        - '@ninicons/svelte'
+        - '@ninicons/solid'
+        - '@ninicons/angular'
+        - '@ninicons/web'
+        - '@ninicons/iconify'
+        - '@ninicons/core'
+        - '@ninicons/font'
+        - The examples
+    validations:
+      required: true
+  - type: input
+    id: icon
+    attributes:
+      label: Icon and style
+      description: e.g. "rocket, bold at 16px".
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens, and what you expected
+      description: A screenshot helps. For a package, say your framework, its version and your bundler.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Ninicons version

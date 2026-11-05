@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m15 6h-10c-.36 0-.72.1-1.03.28-1.38.83-1.26 2.9.22 3.55 .25.11.53.17.81.17h-1v14c-.02 2.18 1.82 4.02 4 4h4c2.18.02 4.02-1.82 4-4v-6c-.01 1.08.92 2.01 2 2h9c.36 0 .72-.1 1.03-.28 1.38-.83 1.26-2.9-.22-3.55-.25-.11-.53-.17-.81-.17h-9c-1.08-.01-2.01.92-2 2v-8h-1c.28 0 .56-.06.81-.17 1.48-.65 1.6-2.72.22-3.55-.31-.18-.67-.28-1.03-.28zm-4 10c.01-.97-1.26-1.36-1.81-.58-.12.17-.19.37-.19.58v3c0 .21.07.41.19.58 .55.78 1.82.39 1.81-.58z" fill="currentColor" stroke="none" fill-rule="evenodd" opacity="0.2"/>
+  <rect x="3" y="6" width="14" height="4" rx="2"/>
+  <path d="M4 10V24A4 4 0 0 0 8 28H12A4 4 0 0 0 16 24V10"/>
+  <rect x="9" y="15" width="2" height="5" rx="1"/>
+  <rect x="16" y="16" width="13" height="4" rx="2"/>
+  <path d="M21 16V20M26 16V20"/>
+</svg>

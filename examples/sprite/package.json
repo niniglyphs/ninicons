@@ -1,0 +1,15 @@
+{
+  "name": "ninicons-example-sprite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@ninicons/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

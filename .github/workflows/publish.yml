@@ -1,0 +1,78 @@
+# Stages a release's packages on npm, where each goes live once a maintainer approves it with 2FA. Each GitHub release
+# carries the packed packages (@ninicons/*.tgz) as assets, built and checked before the release was made; this stages
+# exactly those files, with npm provenance tying each one to this repository and this run. Nothing is public until it
+# is approved: on npmjs.com under Staged Packages, or with `npm stage approve <stage-id>` (npm 11.15 or later).
+# A version already on npm is skipped, and one that fails to stage doesn't stop the others; the run's summary lists
+# both, so a failed run can be re-run once npm's message is dealt with.
+# Secret: NPM_TOKEN, in the npm environment: a granular npm token for the @ninicons scope with "Read and write (stage
+# only)" and no 2FA bypass. It can stage a version, never publish one.
+name: publish
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to stage (e.g. v1.0.0)
+        required: true
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  npm:
+    runs-on: ubuntu-latest
+    environment: npm
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+
+      # staged publishing needs npm 11.15 or later; Node 22 comes with npm 10
+      - name: npm 11
+        run: npm install -g npm@^11.15.0
+
+      - name: Download the packed packages
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern 'ninicons-*.tgz' --dir packs
+
+      - name: Stage
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          set -uo pipefail
+          staged=() skipped=() failed=()
+          for tgz in packs/*.tgz; do
+            name=$(tar -xOzf "$tgz" package/package.json | node -p "JSON.parse(require('fs').readFileSync(0)).name")
+            version=$(tar -xOzf "$tgz" package/package.json | node -p "JSON.parse(require('fs').readFileSync(0)).version")
+            if npm view "$name@$version" version >/dev/null 2>&1; then
+              skipped+=("$name@$version")
+              continue
+            fi
+            if npm stage publish "$tgz" --access public --provenance; then
+              staged+=("$name@$version")
+            else
+              failed+=("$name@$version")
+            fi
+          done
+          {
+            echo "## npm"
+            if [ ${#staged[@]} -gt 0 ]; then
+              echo "Staged, waiting for approval with 2FA on npmjs.com (Staged Packages) or with \`npm stage approve <stage-id>\`:"
+              printf -- '- `%s`\n' "${staged[@]}"
+            fi
+            if [ ${#skipped[@]} -gt 0 ]; then
+              echo "Already on npm:"
+              printf -- '- `%s`\n' "${skipped[@]}"
+            fi
+            if [ ${#failed[@]} -gt 0 ]; then
+              echo "Not staged (npm's message is in the log above):"
+              printf -- '- `%s`\n' "${failed[@]}"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          [ ${#failed[@]} -eq 0 ]
