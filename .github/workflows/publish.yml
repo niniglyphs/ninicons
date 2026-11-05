@@ -54,7 +54,8 @@ jobs:
               skipped+=("$name@$version")
               continue
             fi
-            if npm stage publish "$tgz" --access public --provenance; then
+            # ./ makes it a file: npm reads a bare packs/<name>.tgz as a GitHub shorthand (user/repo)
+            if npm stage publish "./$tgz" --access public --provenance; then
               staged+=("$name@$version")
             else
               failed+=("$name@$version")
