@@ -7,7 +7,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@ninicons/vue": "^1.0.0",
+    "@ninicons/vue": "^1.0.1",
     "vue": "^3.5.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@ninicons/angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ninicons for Angular: a standalone <nini-icon> component and 3,000+ icons in seven styles",
   "license": "MIT",
   "author": "Sayantan Roy",

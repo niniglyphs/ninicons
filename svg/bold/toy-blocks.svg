@@ -4,4 +4,5 @@
   <path d="M8 15L16 4L24 15Z"/>
   <circle cx="9.5" cy="21.5" r="1.5"/>
   <path d="M22.5 20V23M21 21.5H24"/>
+  <path d="M8 15H24M16 15V28"/>
 </svg>

@@ -4,5 +4,4 @@
   <rect x="5" y="18" width="22" height="5" rx="2.5"/>
   <rect x="3" y="23" width="26" height="5" rx="2.5"/>
   <path d="M8 23V28M24 23V28"/>
-  <path d="M7.5 18H24.5M7.5 23H24.5"/>
 </svg>

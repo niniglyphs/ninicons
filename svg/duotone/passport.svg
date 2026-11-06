@@ -2,6 +2,6 @@
   <path d="m10 4h12c2.18-.02 4.02 1.82 4 4v16c.02 2.18-1.82 4.02-4 4h-12c-2.18.02-4.02-1.82-4-4v-16c-.02-2.18 1.82-4.02 4-4z" fill="currentColor" stroke="none" fill-rule="evenodd" opacity="0.2"/>
   <rect x="6" y="4" width="20" height="24" rx="4"/>
   <circle cx="16" cy="13.5" r="4.5"/>
-  <path d="M16 9C14 11 14 16 16 18C18 16 18 11 16 9ZM11.5 13.5H20.5"/>
+  <path d="M16 9V18M11.5 13.5H20.5"/>
   <path d="M12 23H20"/>
 </svg>

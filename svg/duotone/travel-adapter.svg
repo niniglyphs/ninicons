@@ -3,6 +3,5 @@
   <path d="M3 11H10M3 21H10"/>
   <rect x="10" y="5" width="19" height="22" rx="4"/>
   <circle cx="19.5" cy="16" r="4.5"/>
-  <ellipse cx="19.5" cy="16" rx="2" ry="4.5"/>
-  <path d="M15 16H24"/>
+  <path d="M19.5 11.5V20.5M15 16H24"/>
 </svg>

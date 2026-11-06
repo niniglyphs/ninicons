@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="m24 2h3c1.66 0 3 1.34 3 3v3c0 1.66-1.34 3-3 3h-3c-1.66 0-3-1.34-3-3v-3c0-1.66 1.34-3 3-3zm-16 9.5h-3c-1.66 0-3 1.34-3 3v3c0 1.66 1.34 3 3 3h3c1.66 0 3-1.34 3-3v-3c0-1.66-1.34-3-3-3zm19 9.5h-3c-1.66 0-3 1.34-3 3v3c0 1.66 1.34 3 3 3h3c1.66 0 3-1.34 3-3v-3c0-1.66-1.34-3-3-3z" fill="currentColor" stroke="none" fill-rule="evenodd"/>
-  <path d="M10 16H11A2 2 0 0 0 13 14V8.5A2 2 0 0 1 15 6.5H22M10 16H11A2 2 0 0 1 13 18V23.5A2 2 0 0 0 15 25.5H22M25.5 10V22"/>
-  <path d="M19 3.5L22 6.5L19 9.5M19 22.5L22 25.5L19 28.5"/>
+  <path d="m17 2h-2c-1.66 0-3 1.34-3 3v2c0 1.66 1.34 3 3 3h2c1.66 0 3-1.34 3-3v-2c0-1.66-1.34-3-3-3zm-12 19h2c1.66 0 3 1.34 3 3v3c0 1.66-1.34 3-3 3h-2c-1.66 0-3-1.34-3-3v-3c0-1.66 1.34-3 3-3zm22 0h-2c-1.66 0-3 1.34-3 3v3c0 1.66 1.34 3 3 3h2c1.66 0 3-1.34 3-3v-3c0-1.66-1.34-3-3-3z" fill="currentColor" stroke="none" fill-rule="evenodd"/>
+  <path d="M16 9V11A2 2 0 0 1 14 13H8A2 2 0 0 0 6 15V22M16 9V11A2 2 0 0 0 18 13H24A2 2 0 0 1 26 15V22"/>
+  <path d="M9 26H23M14.5 23L17.5 26L14.5 29"/>
 </svg>

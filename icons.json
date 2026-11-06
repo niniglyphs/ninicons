@@ -19116,8 +19116,7 @@
     "processor",
     "wordmark"
    ],
-   "added": "v1.0.0",
-   "solid": true
+   "added": "v1.0.0"
   },
   {
    "name": "lang-assembly",
@@ -19302,8 +19301,7 @@
     "tangram",
     "wordmark"
    ],
-   "added": "v1.0.0",
-   "solid": true
+   "added": "v1.0.0"
   },
   {
    "name": "lang-erlang-text",
@@ -19360,8 +19358,7 @@
     "typed",
     "wordmark"
    ],
-   "added": "v1.0.0",
-   "solid": true
+   "added": "v1.0.0"
   },
   {
    "name": "lang-go-text",
@@ -19501,8 +19498,7 @@
     "programming language",
     "wordmark"
    ],
-   "added": "v1.0.0",
-   "solid": true
+   "added": "v1.0.0"
   },
   {
    "name": "lang-matlab-text",
@@ -19530,8 +19526,7 @@
     "compiled language",
     "wordmark"
    ],
-   "added": "v1.0.0",
-   "solid": true
+   "added": "v1.0.0"
   },
   {
    "name": "lang-objective-c-text",

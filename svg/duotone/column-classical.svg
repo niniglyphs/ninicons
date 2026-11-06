@@ -4,4 +4,5 @@
   <path d="M8 12.5V24H24V12.5L27 8H5Z"/>
   <path d="M13 13.5V24M19 13.5V24"/>
   <rect x="5" y="24" width="22" height="4" rx="2"/>
+  <path d="M5 8H27M8 24H24"/>
 </svg>

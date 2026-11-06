@@ -7,7 +7,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@ninicons/font": "^1.0.0"
+    "@ninicons/font": "^1.0.1"
   },
   "devDependencies": {
     "vite": "^7.0.0"

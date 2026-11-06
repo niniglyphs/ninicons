@@ -1,6 +1,6 @@
 {
   "name": "@ninicons/web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ninicons as a <nini-icon> web component: 3,000+ icons in seven styles, for plain HTML and any framework",
   "license": "MIT",
   "author": "Sayantan Roy",

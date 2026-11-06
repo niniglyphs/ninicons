@@ -7,7 +7,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@ninicons/solid": "^1.0.0",
+    "@ninicons/solid": "^1.0.1",
     "solid-js": "^1.9.0"
   },
   "devDependencies": {

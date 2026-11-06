@@ -1,6 +1,6 @@
 {
   "name": "@ninicons/svelte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ninicons as Svelte 5 components: 3,000+ icons in seven styles, one weight prop",
   "license": "MIT",
   "author": "Sayantan Roy",

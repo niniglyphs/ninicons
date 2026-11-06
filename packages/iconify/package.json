@@ -1,6 +1,6 @@
 {
   "name": "@ninicons/iconify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ninicons as an Iconify collection (prefix nini): 3,000+ icons in seven styles for Tailwind CSS, UnoCSS, Astro Icon and Iconify",
   "license": "MIT",
   "author": "Sayantan Roy",

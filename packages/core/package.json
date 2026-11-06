@@ -1,6 +1,6 @@
 {
   "name": "@ninicons/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ninicons as plain SVG files and sprites in seven styles, plus icons.json metadata",
   "license": "MIT",
   "author": "Sayantan Roy",
