@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ninicons · React from a CDN</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <!-- No build: the import map sends React to esm.sh and each icon to its own module on jsDelivr, so the page loads
+         the eleven icons it draws and nothing else. -->
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@19.3.1",
+          "react-dom/client": "https://esm.sh/react-dom@19.3.1/client",
+          "htm/react": "https://esm.sh/htm@3.1.1/react?deps=react@19.3.1",
+          "@ninicons/react/icons/bell": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/bell.js",
+          "@ninicons/react/icons/clock": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/clock.js",
+          "@ninicons/react/icons/coffee": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/coffee.js",
+          "@ninicons/react/icons/gear": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/gear.js",
+          "@ninicons/react/icons/heart": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/heart.js",
+          "@ninicons/react/icons/home": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/home.js",
+          "@ninicons/react/icons/leaf": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/leaf.js",
+          "@ninicons/react/icons/plus": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/plus.js",
+          "@ninicons/react/icons/rocket": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/rocket.js",
+          "@ninicons/react/icons/search": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/search.js",
+          "@ninicons/react/icons/sparkle": "https://cdn.jsdelivr.net/npm/@ninicons/react@1/dist/icons/sparkle.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./cdn.js"></script>
+  </body>
+</html>

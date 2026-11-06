@@ -1,5 +1,10 @@
 # @ninicons/font
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/font-dark.png">
+  <img alt="npm i @ninicons/font, an i tag with the rocket classes, and the duotone rocket it draws" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/font-light.png">
+</picture>
+
 Every Ninicon as an icon font: seven fonts, one per style, and one stylesheet.
 
 ```bash

@@ -1,5 +1,10 @@
 # @ninicons/svelte
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/svelte-dark.png">
+  <img alt="npm i @ninicons/svelte, import NiniRocket, and the duotone rocket it draws" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/svelte-light.png">
+</picture>
+
 Every Ninicon as a Svelte 5 component. One component per icon, seven styles behind one `weight` prop.
 
 ```bash

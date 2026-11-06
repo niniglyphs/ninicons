@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ninicons · Vue from a CDN</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <!-- No build: the import map sends Vue (its build with the template compiler) to esm.sh and each icon to its own module on jsDelivr, so the page loads
+         the eleven icons it draws and nothing else. -->
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://esm.sh/vue@3.5.45/dist/vue.esm-browser.prod.js",
+          "@ninicons/vue/icons/bell": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/bell.js",
+          "@ninicons/vue/icons/clock": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/clock.js",
+          "@ninicons/vue/icons/coffee": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/coffee.js",
+          "@ninicons/vue/icons/gear": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/gear.js",
+          "@ninicons/vue/icons/heart": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/heart.js",
+          "@ninicons/vue/icons/home": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/home.js",
+          "@ninicons/vue/icons/leaf": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/leaf.js",
+          "@ninicons/vue/icons/plus": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/plus.js",
+          "@ninicons/vue/icons/rocket": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/rocket.js",
+          "@ninicons/vue/icons/search": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/search.js",
+          "@ninicons/vue/icons/sparkle": "https://cdn.jsdelivr.net/npm/@ninicons/vue@1/dist/icons/sparkle.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./cdn.js"></script>
+  </body>
+</html>

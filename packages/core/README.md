@@ -1,5 +1,10 @@
 # @ninicons/core
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/core-dark.png">
+  <img alt="npm i @ninicons/core, the rocket SVG file and its sprite symbol, and the duotone rocket" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/core-light.png">
+</picture>
+
 Every Ninicon as a plain SVG file, in seven styles:
 
 | Style | Path |

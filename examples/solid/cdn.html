@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ninicons · Solid from a CDN</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <!-- No build: the import map sends Solid to esm.sh and each icon to its own module on jsDelivr, so the page loads
+         the eleven icons it draws and nothing else. -->
+    <script type="importmap">
+      {
+        "imports": {
+          "solid-js": "https://esm.sh/solid-js@1.9.18",
+          "solid-js/web": "https://esm.sh/solid-js@1.9.18/web",
+          "solid-js/html": "https://esm.sh/solid-js@1.9.18/html",
+          "@ninicons/solid/icons/bell": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/bell.js",
+          "@ninicons/solid/icons/clock": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/clock.js",
+          "@ninicons/solid/icons/coffee": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/coffee.js",
+          "@ninicons/solid/icons/gear": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/gear.js",
+          "@ninicons/solid/icons/heart": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/heart.js",
+          "@ninicons/solid/icons/home": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/home.js",
+          "@ninicons/solid/icons/leaf": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/leaf.js",
+          "@ninicons/solid/icons/plus": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/plus.js",
+          "@ninicons/solid/icons/rocket": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/rocket.js",
+          "@ninicons/solid/icons/search": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/search.js",
+          "@ninicons/solid/icons/sparkle": "https://cdn.jsdelivr.net/npm/@ninicons/solid@1/dist/icons/sparkle.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./cdn.js"></script>
+  </body>
+</html>

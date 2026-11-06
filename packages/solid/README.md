@@ -1,5 +1,10 @@
 # @ninicons/solid
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/solid-dark.png">
+  <img alt="npm i @ninicons/solid, import NiniRocket, and the duotone rocket it draws" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/solid-light.png">
+</picture>
+
 Every Ninicon as a Solid component. One component per icon, seven styles behind one `weight` prop.
 
 ```bash

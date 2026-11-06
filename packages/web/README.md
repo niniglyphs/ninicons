@@ -1,5 +1,10 @@
 # @ninicons/web
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/web-dark.png">
+  <img alt="npm i @ninicons/web, a nini-icon tag named rocket, and the duotone rocket it draws" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/web-light.png">
+</picture>
+
 Every Ninicon as a `<nini-icon>` web component, for plain HTML and for any framework.
 
 ## From a CDN

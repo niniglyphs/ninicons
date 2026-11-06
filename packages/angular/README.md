@@ -1,5 +1,10 @@
 # @ninicons/angular
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/angular-dark.png">
+  <img alt="npm i @ninicons/angular, a nini-icon tag with the rocket, and the duotone rocket it draws" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/angular-light.png">
+</picture>
+
 Every Ninicon for Angular 17 and later: one standalone `<nini-icon>` component and one constant per icon, seven
 styles behind one `weight` input.
 

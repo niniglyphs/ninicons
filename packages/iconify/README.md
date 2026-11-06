@@ -1,5 +1,10 @@
 # @ninicons/iconify
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/iconify-dark.png">
+  <img alt="npm i -D @ninicons/iconify, the Tailwind and UnoCSS classes for the rocket, and the duotone rocket they draw" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/iconify-light.png">
+</picture>
+
 Every Ninicon as one [Iconify](https://iconify.design) collection, prefix `nini`, for the tools that read IconifyJSON:
 Tailwind CSS and UnoCSS icon plugins, Astro Icon, Iconify's components.
 

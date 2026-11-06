@@ -1,5 +1,10 @@
 # @ninicons/react
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/react-dark.png">
+  <img alt="npm i @ninicons/react, import NiniRocket, and the duotone rocket it draws" src="https://raw.githubusercontent.com/niniglyphs/ninicons/main/.github/assets/packages/react-light.png">
+</picture>
+
 Every Ninicon as a React component. One component per icon, seven styles behind one `weight` prop.
 
 ```bash
